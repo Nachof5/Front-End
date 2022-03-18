@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:ital,wght@0,400;1,700&display=swap');
+body{
+    padding: 0;
+    margin: 0%;
+    font-family: 'PT Sans', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(3deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, 100%);
+}
+h1, h2 {
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 25px;
+}
+a:hover{
+    color: #ff7557;
+}
+main .img-front{
+    height: 400px;
+    background-image: url(./img/front.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+main .sobre-mi{
+    height: 600px;
+    background-image: url(./img/sobremi.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.banner{
+    height: 400px;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.photo {
+    padding: 150px;
+}
+.photo img{
+    width: 100px;
+}
+.photo h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    /* color:#110935; */
+    color:#FB6D0C;
+}
+nav{
+    text-align: center;
+    margin-top: 20px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+}
+nav a:hover{
+    color:#ff7557
+}
+svg{
+    width: 20px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 60px;
+}
+.redes a{
+    margin-right: 10px;
+}
+.redes a:hover{
+    background-color: #E9395F;
+    padding: 2px;
+    border-radius: 20%;
+}
+.redes p{
+    margin-right: 20px;
+}
+span{
+    /* color:#ff7557; */
+    color: #E9395F;
+}
+h2{
+    font-size: 40px;
+}
+/*************************************************************/
+
+.back-inicio{
+    text-align: end;
+    margin-right: 30px;
+}
+.back-inicio a{
+    text-transform:initial;
+    font-size: 20px;
+}
+section p{
+    color: #FFF;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
