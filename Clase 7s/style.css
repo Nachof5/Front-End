@@ -42,11 +42,21 @@ p span{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 8px;
 }
 .callBatman p{
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFFFF;
+}
+footer p{
+    display: block;
+    color: #FFFFFF;
+    background-color: #005677;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
 }
 .footerCv .redes{
     padding-left: 20px;
