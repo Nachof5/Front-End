@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>FrontCat&Dog</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="header-top">
             <p>Grandes ofertas en comederos</p>
-            <select name="option" id="option">
-                <option value="option">Español</option>
-                <option value="option">English</option>
-            </select>
-            <select name="money" id="money">
-                <option value="money">$ARG</option>
-                <option value="money">$USD</option>
-            </select>
-        </div>
-        <div>
             <div>
+                <select name="option" id="option">
+                    <option value="option">Español</option>
+                    <option value="option">English</option>
+                </select>
+                <select name="money" id="money">
+                    <option value="money">$ARG</option>
+                    <option value="money">$USD</option>
+                </select>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="title">
                 <img src="./img/Cat.png" alt="Logo Cat">
-                <span>Front</span><span>Cat&Dog</span>
+                <a href="index.html"><h2>Front<span>Cat&Dog</span></h2></a>
                 <img src="./img/dog.png" alt="Logo Dog">
             </div>
 
@@ -33,49 +36,107 @@
                 <a href="#"><img src="./img/patita.png" alt="Patita">Contactanos</a>
             </nav>
         </div>
-        <div>
+        <div class="banner">
             <img src="./img/banner.png" alt="Imagen comedero de perro">
-            <h2>¡Es un placer tenerte por aquí!</h2>
-            <p>¡Comederos en descuentos!</p>
-            <a href="#">COMEDEROS</a>
+            <div class="nav-banner">
+                <h2>¡Es un placer tenerte por aquí!</h2>
+                <p>¡Comederos en descuentos!</p>
+                <a href="#">COMEDEROS</a>
+            </div>
         </div>
     </header>
     <main>
-        <img src="./img/pataAmarilla.png" alt="Huella de Perro">
-        <h2>Productos Destacados</h2>
-        <nav>
-            <a href="#">Comederos</a>
-            <a href="#">Accesorios</a>
-            <a href="#">Comida</a>
-        </nav>
-        <div>
-            <div>
-                <img src="./img/churrasquito.png" alt="Juguete churrasquito">
+        <div class="nav-productos">
+            <img src="./img/pataAmarilla.png" alt="Huella de Perro">
+            <h2>Productos Destacados</h2>
+            <nav>
+                <a href="#">Comederos</a>
+                <a href="#">Accesorios</a>
+                <a href="#">Comida</a>
+            </nav>
+        </div>
+
+        <div class="productos">
+            <div class="producto-info">
+                <a href="./index.html"><img src="./img/churrasquito.png" alt="Juguete churrasquito">
                 <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <p class="money">$150</p></a>
             </div>
-            <div>
-                <img src="./img/comedero.png" alt="Juguete Comedero">
+            <div class="producto-info">
+                <a href="./index.html"><img src="./img/comedero.png" alt="Juguete Comedero">
                 <p>Juguete Comedero</p>
-                <p>$250</p>
+                <p class="money">$250</p></a>
             </div>
-            <div>
-                <img src="./img/Huesito.png" alt="Juguete Huesito">
+            <div class="producto-info">
+                <a href="./index.html"><img src="./img/Huesito.png" alt="Juguete Huesito">
                 <p>Juguete Huesito</p>
-                <p>$650</p>
+                <p class="money">$650</p></a>
             </div>
         </div>
-        <section>
+    </main>
+
+        <section class="form-user">
             <h2>Contáctanos</h2>
             <form action="/">
-                <input type="tex" value="Nombre y Apellido">
-                <input type="tex" value="Ingresa tu correo electrónico">
-                <input type="tel" value="Teléfono">
-                <input type="submit" value="Resetear">
-                <input type="submit" value="Enviar">
+                <div class="form-flex">
+                    <input class="input-user" type="tex" placeholder="Nombre y Apellido">
+                    <input class="input-user" type="tex" placeholder="Ingresa tu correo electrónico">
+                    <input class="input-user" type="tel" placeholder="Teléfono">
+                </div>
+                <div class="btn-form">
+                    <input class="reset" type="submit" value="Resetear">
+                    <input class="submit" type="submit" value="Enviar">
+                </div>
             </form>
         </section>
-    </main>
+
+        <div class="subscribe">
+            <div class="logo-correo">
+                <img src="./img/enviar-correo.png" alt="Imagen Enviar Correo">
+                <p>Suscríbete para más novedades</p>
+            </div>
+            <div class="">
+                <form action="" class="input-correo">
+                    <input type="text" placeholder="Ingresá tu correo electrónico">
+                    <input class="submit-correo" type="submit" value="Suscribirme">
+                </form>
+            </div>
+        </div>
+
+        <div class="date-shop">
+
+            <div class="ubication">
+                <div class="city">
+                    <img src="./img/localidad.png" alt="logo localidad">
+                    <div class="address">
+                        <p>Localidad</p>
+                        <p>San Rafael - Mendoza</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tel">
+                <div class="number-tel">
+                    <img src="./img/telefono.png" alt="logo telefono">
+                    <div class="address">
+                        <p>Teléfono</p>
+                        <p>+54 9 1111 111111</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="email">
+                <div class="direction-email">
+                    <img src="./img/correo.png" alt="logo correo">
+                    <div class="address">
+                        <p>Correo Electrónico</p>
+                        <p>Petshop@petshop.com</p>
+                    </div>
+                </div>
+            </div>
+                    
+        </div>
+
     <footer>
         <p>Todos los derechos reservados Front End</p>
     </footer>
