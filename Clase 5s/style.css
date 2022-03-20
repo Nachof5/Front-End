@@ -190,10 +190,18 @@ form input:focus{
     margin-right: 5px;
     font-size: 16px;
 }
+.btn-form .reset:hover{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+}
 .btn-form .submit{
     background-color: #F0A83E;
     color: #FFFFFF;
     font-size: 16px;
+}
+.btn-form .submit:hover{
+    background-color: #3C2313;
+    color: #FFFFFF;
 }
 /****************************************************/
 .subscribe{
@@ -226,7 +234,6 @@ form input:focus{
     width: 145%;
 }
 .input-correo input{
-    /* background-color: #d4d0d0; */
     background-color: #88d0a6;
     width: 45%;
     margin-right: 15px;
@@ -236,6 +243,11 @@ form input:focus{
     width: 25%;
     background-color: #3C2313;
     cursor: pointer;
+}
+.input-correo .submit-correo:hover{
+    background-color: #FFFFFF;
+    color: #3C2313;
+    font-weight: bold;
 }
 /******************************************************/
 .date-shop{
@@ -272,12 +284,10 @@ form input:focus{
 /*****************************/
 footer p{
     text-align: center;
-    /* height: 20px; */
     background-color: #222222;
     color: #FFFFFF;
     margin: 0;
     padding-bottom: 10px;
     padding-top: 15px;
     font-weight: bold;
-
 }
